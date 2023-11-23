@@ -29,3 +29,5 @@ replay_pid*
 .classpath
 /doc/
 .DS_Store
+*.jardesc
+
