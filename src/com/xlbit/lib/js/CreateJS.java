@@ -1,7 +1,5 @@
 package com.xlbit.lib.js;
 
-import java.util.List;
-
 
 public class CreateJS {
 	
