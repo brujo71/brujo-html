@@ -139,6 +139,12 @@ public class Create {
 		return a.elem();
 	}
 	
+	public static Elem a(String href) {
+		ElemHtml a = container("a").elemHtml();
+		a.setHref(href);
+		return a.elem();
+	}
+	
 	public static Elem style(){
 		return container("style");
 	}
