@@ -1,6 +1,5 @@
 package com.xlbit.lib.js;
 
-
 public class CreateJS {
 	
 	
