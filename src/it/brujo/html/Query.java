@@ -32,7 +32,7 @@ public class Query implements Iterable<Elem> {
 	}
 
 	public Query filterId(final String id) {
-		return new Query(this,  e -> {Attr a=e.attr(AttrID.nameId); return a!=null && a.getValue().equalsIgnoreCase(id);});
+		return new Query(this,  e -> {Attr a=e.attr(AttrID.nameId); return a!=null && a.getValue()!=null && a.getValue().equalsIgnoreCase(id);});
 	}
 	
 	public Query filterHasClass(final String clazz) {
